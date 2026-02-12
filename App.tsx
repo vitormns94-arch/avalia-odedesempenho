@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Step, EvaluationData, AIReport } from './types';
 import StepLayout from './components/StepLayout';
-import { ScoreInput } from './components/ScoreInput';
+import ScoreInput from './components/ScoreInput';
 import { generatePerformanceReport } from './geminiService';
 
 const initialData: EvaluationData = {
